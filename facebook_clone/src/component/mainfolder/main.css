@@ -1,0 +1,17 @@
+.main_parent{
+    display: flex;
+    justify-content: space-between;
+
+}
+.sidebar_parent_1{
+    width: 20%;
+    border: 2px solid red;
+}
+.sidebar_parent_2{
+    width: 60%;
+    border: 2px solid rgb(0, 8, 255);
+}
+.sidebar_parent_3{
+    width: 20%;
+    border: 2px solid rgb(31, 211, 25);
+}
