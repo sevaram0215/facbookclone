@@ -1,0 +1,51 @@
+.main_cont_part3{
+    // border: 1px solid red;
+    
+       padding: 10px;
+    
+}
+
+.side_bar_child2_contant_div{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  
+
+}
+
+.SideBarBtn_seeMore{
+    width: 80%;
+
+ margin: auto;
+}
+button{
+    background-color: rgba(248, 244, 244, 0.907);
+    margin: auto;
+ border-radius: 10px;
+    height: 25px;
+    width: 90%;
+}
+button:hover{
+    background-color: rgba(196, 195, 231, 0.907);
+  cursor: pointer;
+
+  
+   
+}
+.maincont_part1{
+    display: flex;
+    gap: 70%;
+    // border: 1px solid red;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+
+.sidebarimg{
+    width: 40px;
+height: 35px;
+border-radius: 40px;
+}
+

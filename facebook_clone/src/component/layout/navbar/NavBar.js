@@ -23,7 +23,7 @@ const Navbar=()=>{
 <nav  className="navbar">
 
     <div className="nav_child_1">
-   <img src={ooject.img} ></img>
+   <img className='navImg' src={ooject.img} ></img>
         <input type="seacrh" placeholder="search"></input>
     </div>
     <div className='nav_child_2'>
@@ -34,7 +34,7 @@ const Navbar=()=>{
         <a href=""><IoPeopleCircle title='community'style={{ fontSize:"25px"}}/>  </a>
     </div>
     <div className='nav_child_3'>
-         <a href=""> <img src={ooject.slefImg}></img></a>
+         <a href=""> <img className='navImg' src={ooject.slefImg}></img></a>
         <a href=""><CiCirclePlus  title='ad more' style={{ fontSize:"25px"}} /></a>
         <a href=""><FaFacebookMessenger  title='messenger' style={{ fontSize:"25px"}} /></a>
         <a href=""><FaBell title='alert' style={{ fontSize:"25px"}} /></a>

@@ -1,0 +1,39 @@
+._part2{
+    // border: 2px solid red;
+    margin-top: 5px;
+    padding: 10px;
+
+    & .child1{
+        // background-color: blue;
+        // border: 2px solid blue;
+        // padding-left: 8px;
+        display: flex;
+        gap: 10px;
+        & img{
+            width: 40px;
+            height: 35px;
+            border-radius: 40px;
+            margin-bottom: 8px;
+        }
+    }
+    input{
+        width: 95%;
+        height: 35px;
+        padding-left: 10px;
+    }
+    & .Child2{
+        // border: 2px solid green;
+        margin-top: 8px;
+        font-size: 17px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 6%;
+        padding-right: 6%;
+        & div{
+            display: flex;
+            gap: 10px;
+            // border: 2px solid red;
+        }
+    }
+
+}
