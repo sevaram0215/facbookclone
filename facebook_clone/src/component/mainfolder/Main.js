@@ -1,6 +1,8 @@
 import MainBar from "../layout/mainbar/Mainbar";
+import MainBar2 from "../layout/mainbar2/MainBar2";
 import Navbar from "../layout/navbar/NavBar";
 import Sidebar from "../layout/SideBar/SideBar";
+
 import "./main.css"
 const Main=()=>{
     return(
@@ -15,6 +17,8 @@ const Main=()=>{
     <MainBar/>
     </div>
     <div  className="sidebar_parent_3" >
+        <MainBar2/>
+   
 
     </div>
  

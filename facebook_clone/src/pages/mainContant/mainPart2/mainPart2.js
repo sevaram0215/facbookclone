@@ -36,7 +36,7 @@ const MainPart2=()=>{
                 <input typeof="search" placeholder="What's on your mind,sevaram"></input>
             </div>
         
-            <hr></hr>
+            <hr style={{width:"95%",margin:"auto", marginTop:"10px"}}></hr>
             <div className="Child2">
                 {
                     MainPart2Data.parentdata.map((element)=>{

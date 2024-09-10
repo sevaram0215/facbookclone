@@ -1,0 +1,25 @@
+.RightSidePart2{
+    // border: 2px solid red;
+    position: relative;
+    width: 100%;
+    margin-top: 5px;
+    & .Add_more{
+        position: absolute;
+        // border: 2px solid red;
+        background-color: rgb(46, 48, 49);
+        bottom: 10px;
+        right: 20px;
+        font-size: 30px;
+     
+    }
+
+}
+.Active_div{
+    // border: 2px solid red;
+   
+    padding: 5px;
+    padding-left: 11px;
+    align-items: center ;
+    display: flex;
+     gap: 10px;
+}

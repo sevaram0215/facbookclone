@@ -15,7 +15,7 @@ const MainPart3Data = {
       time: "6 hours ago",
       stausline: "Nature is not a place to visit, it is home. –Gary Snyder",
       statusImage:
-        "https://www.akamai.com/site/im-demo/perceptual-standard.jpg?imbypass=true",
+        "https://i.gifer.com/origin/20/2044500a9a0cef20ef935c31946538a1.gif",
     },
     {
       id: "2",
@@ -33,7 +33,7 @@ const MainPart3Data = {
       logo: <IoPeople />,
       time: "6 hours ago",
       stausline: " My wish is to stay always like this, living quietly in a corner of nature. –Claude Monet",
-      statusImage:"https://pixlr.com/images/index/product-image-one.webp",
+      statusImage:"https://creativeartworksblog.wordpress.com/wp-content/uploads/2016/09/0618gif-paisaje.gif",
     },
     {
       id: "4",

@@ -2,7 +2,8 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    border: 1px solid rgb(8, 0, 255);
+    background-color:rgb(85, 82, 82);
+    /* border: 1px solid rgb(8, 0, 255); */
 }
 .navImg{
 width: 40px;
@@ -11,28 +12,36 @@ border-radius: 40px;
 
 }
 input{
+    padding-left: 10px;
 border-radius: 10px;
 width: 80%;
 }
 .nav_child_1{
     padding: 4px;
-    width: 17%;
+    width: 20%;
     display: flex;
     justify-content: space-around;
+    /* border: 2px solid red; */
 
     text-align: left;
 }
 .nav_child_2{
-    width: 65%;
+    width: 55%;
     display: flex;
     gap: 20px;
+    /* border: 2px solid red; */
+
 }
  a{
     margin: auto;
+    color: white;
 }
 .nav_child_3{
-    width: 17%;
+    width: 25%;
     /* border: 2px solid red; */
     display: flex;
     gap: 20px;
+ 
+ 
 }
+

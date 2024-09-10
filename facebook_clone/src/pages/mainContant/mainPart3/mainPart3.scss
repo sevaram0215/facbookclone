@@ -2,6 +2,10 @@
     // border: 2px solid red;
     overflow: hidden;
     display: block;
+    height: 50vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+ 
 }
 
 .child3 img{
