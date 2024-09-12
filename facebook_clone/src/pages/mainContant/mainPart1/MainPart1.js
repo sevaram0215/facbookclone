@@ -12,6 +12,7 @@ const MainPart1Data={
         {    
             id:2,
             story:"Ram ",
+            postVideo:"https://v.ftcdn.net/02/95/49/08/700_F_295490831_QYpAfgBtptqfSI7c0euPJRrmcPLcwHFC_ST.mp4",
             Profileimage:"https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
             StoryImage:"https://www.icegif.com/wp-content/uploads/2023/04/icegif-584.gif"
         }
@@ -25,6 +26,7 @@ const MainPart1Data={
         {
             id:4,
             story:"raju ",
+            postVideo:"https://v.ftcdn.net/02/95/49/08/700_F_295490831_QYpAfgBtptqfSI7c0euPJRrmcPLcwHFC_ST.mp4",
             Profileimage:"https://images.ctfassets.net/hrltx12pl8hq/3Z1N8LpxtXNQhBD5EnIg8X/975e2497dc598bb64fde390592ae1133/spring-images-min.jpg",
             StoryImage:"https://j.gifs.com/wpwMpJ.gif"
         }
@@ -44,6 +46,7 @@ const MainPart1Data={
         , {
             id:7,
             story:"Rani ",
+            postVideo:"https://v.ftcdn.net/02/95/49/08/700_F_295490831_QYpAfgBtptqfSI7c0euPJRrmcPLcwHFC_ST.mp4",
             Profileimage:"https://cdn.pixabay.com/photo/2021/06/11/12/26/woman-6328478_960_720.jpg",
             StoryImage:"https://images.tenorshare.com/topics/whatsapp-tips/best-whatsapp-status.jpg"
         }
@@ -66,6 +69,7 @@ const MainPart1=()=>{
                 <div className="main_div" key={ele.id} >
             <div className="img_div">
             <div><img className="profile_img1" src={ele.Profileimage}></img></div>
+
            <div> <img className="story_img1" src={ele.StoryImage}/></div>
             </div>
                 <span className="storyname">{ele.story}</span>

@@ -12,11 +12,19 @@ margin-bottom: 10px;
 margin-left: 20px;
 }
 .SideBarBtn_seeMore{
-    width: 80%;
-    height: 30px;
- 
+    display: flex;
+    justify-content: space- space-between;
+    width: 90%;
     // border: 2px solid red;
     
+}
+.SideBarBtn_seeMore span{
+ 
+    // color:  red;
+    margin: 00px;
+    padding: 00px;
+    font-size: 16px;
+    // border: 2px solid red;
 }
 
 .sidebarimg{

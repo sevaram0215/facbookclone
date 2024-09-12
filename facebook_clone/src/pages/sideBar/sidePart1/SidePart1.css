@@ -1,6 +1,7 @@
 .main_cont{
     display: flex;
     /* border: 2px solid red; */
+    background-color:rgb(129, 124, 124);
     gap:25px;
 margin-left: 10px;
 margin-top: 10px;

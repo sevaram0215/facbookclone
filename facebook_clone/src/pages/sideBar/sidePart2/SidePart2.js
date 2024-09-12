@@ -48,7 +48,8 @@ const SidePart2=()=>{
                 })}
 
                 <div className="SideBarBtn_seeMore">
-            <button >see more <span>&#711;</span> </button>
+            <button >see more  </button>
+            <span>&#711;</span>
             </div>
         </div>
     

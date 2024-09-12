@@ -15,7 +15,7 @@ const SideBarData3=[
         img:"https://cdn.pixabay.com/photo/2020/05/18/16/17/social-media-5187243_1280.png",
         name:"Red table tolk group"
     },{
-        img:"https://cdn.pixabay.com/photo/2020/05/18/16/17/social-media-5187243_1280.png",
+        img:"https://img.freepik.com/free-vector/golden-bird-logo-design_1195-336.jpg",
         name:"best heading hanging solo"
     },
 ]

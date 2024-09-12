@@ -9,18 +9,18 @@ const MainPart2Data={
                                                                                                                                                                                                                                                                               
      parentdata:[
            {id:"1",
-            img:<FaPhotoVideo />,
+            img:<FaPhotoVideo style={{ color:"skyblue"}}/>,
             name:"photo/video"
             }
             ,
             {id:"2",
-                img:<FaUserFriends />,
+                img:<FaUserFriends style={{ color:"blue"}}/>,
                 name:"Friends"
                 },
                 
             {
                 id:"3",
-                img:<BsFillEmojiHeartEyesFill />,
+                img:<BsFillEmojiHeartEyesFill style={{ color:"yellow"}} />,
                 name:"Fillinf/Activity"
                 },
                 

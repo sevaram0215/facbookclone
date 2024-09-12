@@ -13,7 +13,7 @@ const ooject={
     name: "Sevaram",
     header:"facebook",
     slefImg:"https://images.unsplash.com/photo-1507671280192-5900ae887d3d?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    img:"https://freepnglogo.com/images/all_img/facebook-circle-logo-png.png"
+    img:"https://cdn2.downdetector.com/static/uploads/logo/FB-f-Logo__blue_512.png"
 
 
 }
@@ -36,9 +36,9 @@ const Navbar=()=>{
     <div className='nav_child_3'>
          <a href=""> <img className='navImg' src={ooject.slefImg}></img></a>
         <a href=""><CiCirclePlus  title='ad more' style={{ fontSize:"25px"}} /></a>
-        <a href=""><FaFacebookMessenger  title='messenger' style={{ fontSize:"25px"}} /></a>
+        <a href=""><FaFacebookMessenger  title='messenger' style={{ fontSize:"25px", color:"blue"}} /></a>
         <a href=""><FaBell title='alert' style={{ fontSize:"25px"}} /></a>
-        <a href=""><FaGrinHearts  title='alert' style={{ fontSize:"25px"}} /></a>
+        <a href=""><FaGrinHearts  title='alert' style={{ fontSize:"25px", color:"yellow"}} /></a>
     </div>
 
 </nav>

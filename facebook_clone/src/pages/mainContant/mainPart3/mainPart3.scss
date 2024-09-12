@@ -2,7 +2,7 @@
     // border: 2px solid red;
     overflow: hidden;
     display: block;
-    height: 50vh;
+    height: 61vh;
     overflow-y: scroll;
     scrollbar-width: none;
  
@@ -57,5 +57,26 @@ padding: 5px;
 .text_content{
     display:flex ;
     gap: 10px;
+
+}
+.like_comment_share_div{
+    display: flex;
+    justify-content: space-between;
+    // border: 2px solid red;
+    background-color: azure;
+    & div{
+     
+    width: 33.3%;
+ 
+        flex-direction: row;
+        & button{
+            width: 100%;
+            display: flex;
+       justify-content: center;
+       align-items: center;
+       border: none;
+       gap: 15px;
+        }
+    }
 
 }

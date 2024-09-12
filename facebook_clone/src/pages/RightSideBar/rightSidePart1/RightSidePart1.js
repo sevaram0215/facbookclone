@@ -20,7 +20,7 @@ const Sidepart1Data = {
   modeData: [
     {
       id: "1",
-      img: <IoIosSettings title="Setting" />,
+      img: <IoIosSettings title="Setting"  style={{ color:"skyblue"}}/>,
       name: "Setting",
       span:<IoIosArrowForward />
     },
@@ -33,7 +33,7 @@ const Sidepart1Data = {
     
     {
       id: "3",
-      img: <CiDark  title="Dark Mood" />,
+      img: <CiDark  title="Dark Mood" style={{ color:"skyblue"}} />,
       name: "Dark Mood",
       span:<RxSwitch />
     }
@@ -46,7 +46,7 @@ const Sidepart1Data = {
     },
     {
       id: "5",
-      img: <MdOutlineFeedback title="Send your Feedback" />,
+      img: <MdOutlineFeedback title="Send your Feedback" style={{ color:"skyblue"}} />,
       name: " send Feedback",
     },
     {
@@ -82,7 +82,7 @@ const RightSidePart1 = () => {
             return (
               <div key={att.name} className="facebook_setting_tab">
                 <div style={{ display: "flex", gap:"15px", }}>
-                  <div style={{fontSize:"25px"}}>{att.img}</div>
+                  <div style={{fontSize:"26.5px"}}>{att.img}</div>
                   <div>{att.name}</div>
                 </div>
                 <div style= {{fontSize:"25px"}}>
@@ -93,12 +93,12 @@ const RightSidePart1 = () => {
           })}
         </div>
         <div className="setting_a" >
-          <a href="Privacy"> Privacy.</a>
-          <a href="tersms"> tersms.</a>
-          <a href="Advertisement"> Advertisement.</a>
-          <a href="Ad Chice"> Ad Chice.</a>
+          <a href="https://policies.google.com/privacy?hl=en-US"> Privacy.</a>
+          <a href="https://dictionary.cambridge.org/dictionary/english/advertisement#google_vignette"> tersms.</a>
+          <a href="https://dictionary.cambridge.org/dictionary/english/advertisement#google_vignette"> Advertisement.</a>
+          <a href="https://dictionary.cambridge.org/dictionary/english/choice"> Ad Chice.</a>
           <a href="Cokkies">  Cokkies.</a>
-          <a href="Facebook">  More.Facebook @2019   </a>
+          <a href="https://www.apkmirror.com/apk/facebook-2/facebook/facebook-210-0-0-43-119-release/">  More.Facebook @2019   </a>
 
         </div>
       </div>
